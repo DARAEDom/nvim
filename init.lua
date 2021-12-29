@@ -1,2 +1,5 @@
 require "dom_config.options"
 require "dom_config.keymaps"
+require "dom_config.plugins"
+require "dom_config.colourscheme"
+require "dom_config.cmp"
