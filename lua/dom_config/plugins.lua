@@ -11,7 +11,7 @@ if fn.empty(fn.glob(install_path)) > 0 then
     "https://github.com/wbthomason/packer.nvim",
     install_path,
   }
-  print "Installing packer close and reopen Neovim..."
+  print "Installing packer, close and reopen Neovim..."
   vim.cmd [[packadd packer.nvim]]
 end
 
@@ -44,19 +44,22 @@ return packer.startup(function(use)
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
+
+  -- Autopairs with cmp
+  use "windwp/nvim-autopairs"
   -- Auto-closing brackets
-  use '9mm/vim-closer'
+--  use '9mm/vim-closer'
   -- Extended word/code matching
-  use {'andymass/vim-matchup', event = 'VimEnter'}
+--  use {'andymass/vim-matchup', event = 'VimEnter'}
   -- Linting 
-  use {
-    'w0rp/ale',
+--  use {
+--    'w0rp/ale',
     -- black, python code formatter, pep8 compliant
     -- autopep8 pep8 formatting
-    ft = {'sh', 'zsh', 'bash', 'c', 'cpp', 'black', 'autopep8', 'html', 'markdown', 'vim', 'tex'},
-    cmd = 'ALEEnable',
-    config = 'vim.cmd[[ALEEnable]]'
-  }
+--    ft = {'sh', 'zsh', 'bash', 'c', 'cpp', 'black', 'autopep8', 'html', 'markdown', 'vim', 'tex'},
+--    cmd = 'ALEEnable',
+--    config = 'vim.cmd[[ALEEnable]]'
+--  }
 
   -- Colour schemes
   -- use "LunarVim/Colorschemes"
