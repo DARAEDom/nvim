@@ -9,6 +9,6 @@ shade.setup {
   keys = {
     brightness_up = '<C-Up>',
     brightness_down = '<C-Down>',
-    toggle          = '<C-p>',
+    toggle          = '<C-l>',
   }
 }

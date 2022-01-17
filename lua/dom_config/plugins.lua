@@ -45,19 +45,28 @@ return packer.startup(function(use)
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
 
-  -- Autopairs with cmp
-  use "windwp/nvim-autopairs"
 
   -- Telescope
   use "nvim-telescope/telescope.nvim"
   use "nvim-telescope/telescope-media-files.nvim"
+
+  -- web dev icons, dependancy
+  use "kyazdani42/nvim-web-devicons"
 
   -- Colour schemes
   -- use "LunarVim/Colorschemes"
   use "NLKNguyen/papercolor-theme"
   -- Shade plugin, dim the inactive windows
   use "sunjon/shade.nvim"
+  -- Buffers
+  use "akinsho/bufferline.nvim"
 
+  -- status line
+  use "nvim-lualine/lualine.nvim"
+  -- DAP (Debug Adepter Protocol)
+  -- use "mfussenegger/nvim-dap"
+  -- highlight text
+  use "RRethy/vim-illuminate"
 
   -- CMP autocompletion
   use "hrsh7th/nvim-cmp" -- The completion plugin
@@ -66,6 +75,9 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-cmdline" -- cmdline completions
   use "saadparwaiz1/cmp_luasnip" -- snippet completions
   use "hrsh7th/cmp-nvim-lsp"
+
+  -- Autopairs with cmp
+  use "windwp/nvim-autopairs"
 
   -- snippets
   use "L3MON4D3/LuaSnip" --snippet engine
