@@ -47,23 +47,17 @@ return packer.startup(function(use)
 
   -- Autopairs with cmp
   use "windwp/nvim-autopairs"
-  -- Auto-closing brackets
---  use '9mm/vim-closer'
-  -- Extended word/code matching
---  use {'andymass/vim-matchup', event = 'VimEnter'}
-  -- Linting 
---  use {
---    'w0rp/ale',
-    -- black, python code formatter, pep8 compliant
-    -- autopep8 pep8 formatting
---    ft = {'sh', 'zsh', 'bash', 'c', 'cpp', 'black', 'autopep8', 'html', 'markdown', 'vim', 'tex'},
---    cmd = 'ALEEnable',
---    config = 'vim.cmd[[ALEEnable]]'
---  }
+
+  -- Telescope
+  use "nvim-telescope/telescope.nvim"
+  use "nvim-telescope/telescope-media-files.nvim"
 
   -- Colour schemes
   -- use "LunarVim/Colorschemes"
   use "NLKNguyen/papercolor-theme"
+  -- Shade plugin, dim the inactive windows
+  use "sunjon/shade.nvim"
+
 
   -- CMP autocompletion
   use "hrsh7th/nvim-cmp" -- The completion plugin
