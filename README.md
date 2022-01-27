@@ -1,12 +1,23 @@
-# NeoVim Config
+# Welcome to my NeoVim Config
 
-Quick Setup:
+> List of plugins:
 
-go to /home/{user}/.config
+- autopairs
+- cmp
+- dap
+- shade
+- vim-illuminate
+- bufferline
+- lualine
+- telescope
 
-git clone https://github.com/DARAEDom/nvim.com
+> ### Quick Setup:
 
-start nvim to download plugins and restart
+- go to /home/{user}/.config
+
+- git clone https://github.com/DARAEDom/nvim.com
+
+- start nvim to download plugins and restart
 
 Enjoy!
 
