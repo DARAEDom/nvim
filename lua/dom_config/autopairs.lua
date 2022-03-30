@@ -12,7 +12,7 @@ npairs.setup {
   disable_filetpye = {}, -- "TelescopePrompt"
   fast_wrap = {
     map = "<M-e>",
-    chars = {"{", "[", "(", '"', "'"},
+    chars = {"{", "[", "(", '"', "'", "<"},
     pattern = string.gsub([[ [%'%2%)%>%]%)%},] ]], "%s+", ""),
     offset = 0,
     end_key = "$",
