@@ -1,3 +1,13 @@
+<div align="center">
+
+  ![Windows](https://img.shields.io/badge/Windows-000000?logo=Windows)
+  ![Linux](https://img.shields.io/badge/Linux-000000?logo=Linux)
+  ![MacOs](https://img.shields.io/badge/MacOs-000000?logo=Apple)
+  ![Lua](https://img.shields.io/badge/Lua-000000?logo=Lua)
+  ![NeoVim](https://img.shields.io/badge/Neovim-000000?logo=Neovim)
+
+</div>
+
 ## Introduction
 
 This repository consists of NeoVim configuration that focuses on simplicity, [What is NeoVim?](https://neovim.io/charter/)
