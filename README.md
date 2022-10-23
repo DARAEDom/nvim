@@ -38,7 +38,7 @@ There are several branches that have different configurations included:
 
 1. go to /home/{user}/.config
 
-2. git clone https://github.com/DARAEDom/nvim.com
+2. git clone https://github.com/drgndomdev/nvim.com
 
 3. start nvim to download plugins and restart
 
